@@ -1,0 +1,40 @@
+
+.card {
+  border-radius: 1.25rem;
+  background-color: #FFF;
+  padding: 1.50rem;
+}
+
+.cardTitle {
+  max-width: 10rem;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cardSubTitle {
+  color: #999;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.cardNumber {
+  display: flex;
+  gap: 0 0.63rem;
+  align-items: center;
+  color: #4180C6;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.cardButton {
+  color: #4180C6;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border-radius: 1.25rem;
+  border: 2px solid #4180C6;
+  height: 3.125rem;
+}

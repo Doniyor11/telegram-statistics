@@ -1,0 +1,72 @@
+
+.homeTitle {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.70rem;
+}
+
+
+.statusUsers {
+  margin-top: 9rem;
+}
+
+.statusUsersTitle {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.statusUsersTabs {
+  display: flex;
+  align-items: center;
+  gap: 0 1.5rem;
+}
+
+.statusUsersTabsText {
+  color: #999;
+  font-size: 1.125rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+
+  &.active {
+    color: #000;
+    border-bottom: 2px solid #4180C6;
+  }
+}
+
+.tabsBody {
+  border-radius: 1.25rem;
+  background-color: #FFFEFE;
+  padding: 1.70rem;
+  margin-top: 2.60rem;
+}
+
+
+.tabsBodyButton {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border-radius: 1.25rem;
+  background-color: #4180C6;
+  text-decoration: none;
+  padding: 0.80rem 1.50rem;
+}
+
+.statisticsBody {
+  margin-top: 1.5rem;
+}
+
+.statisticsBodyFooterTitle{
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.statisticsBodyFooterSubTitle{
+  color: #4180C6;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
