@@ -29,7 +29,7 @@ export const TopChannelsCard = () => {
           </Flex>
         </Flex>
         <Flex justify={'center'} mt={'1rem'}>
-         <Link to={'/'}>
+         <Link to={'/analytics'}>
            <Button className={styles.cardButton} variant={'outline'}>
              Подробнее
            </Button>

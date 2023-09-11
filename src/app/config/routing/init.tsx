@@ -8,6 +8,7 @@ import {ChildrenProp} from '@/shared/types/utility';
 import {PrivateRoute} from './private-route';
 
 const Home = lazy(() => import('@/pages/home'));
+const Analytics = lazy(() => import('@/pages/analytics/ui/index'));
 
 interface RouteView {
   element: JSX.Element;
@@ -22,6 +23,9 @@ const routesView: RouteView[] = [
       {
         path: routePaths.root,
         element: <Home />,
+      },{
+        path: routePaths.analytics,
+        element: <Analytics />,
       },
     ],
   },

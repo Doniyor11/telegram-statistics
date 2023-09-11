@@ -1,0 +1,227 @@
+.analytics {
+  padding: 3rem 0;
+}
+
+.analyticsCardTop {
+  border-radius: 1.25rem;
+  background-color: #FFF;
+  padding: 1.80rem;
+}
+
+.cardTopLeftTitle {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0 0.44rem;
+  margin-bottom: 1.30rem;
+}
+
+.cardTopLeftSubTitle {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0 0.44rem;
+}
+
+.analyticsCardTopInput {
+  input {
+    border-radius: 1.25rem;
+    background: #DEE4EB;
+    width: 26.875rem;
+    height: 2.5rem;
+  }
+}
+
+.analyticsCardTopButton {
+  color: #4180C6;
+  font-size: 1.125rem;
+  font-weight: 400;
+  border-radius: 1.25rem;
+  border: 2px solid #4180C6;
+  height: 2.5rem;
+  background-color: #fff;
+
+  &:hover {
+    background-color: #4180C6;
+    color: #fff;
+  }
+}
+
+.analyticsBody {
+  margin-top: 3rem;
+}
+
+.analyticsBodyTitle {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.94rem;
+}
+
+
+.analyticsBodySubTitle {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+
+}
+
+.analyticsBodySelect {
+  width: 9rem;
+
+  input {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.analyticsBodyTableHeader {
+  padding: 2rem 1.30rem 0 1.30rem;
+}
+
+.analyticsBodyCard {
+  border-radius: 1.25rem;
+  background-color: #fff;
+  height: 64.6875rem;
+  overflow: auto;
+  padding: 2rem 1.30rem;
+}
+
+.analyticsBodyCardItem {
+  border-bottom: 1px solid #999;
+  padding-bottom: 1.88rem;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.analyticsBodyCardTitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  &:nth-child(1) {
+    width: 6.3rem;
+  }
+
+  &:nth-child(2) {
+    width: 11.5rem;
+  }
+
+  &:nth-child(3) {
+    width: 9rem;
+  }
+
+  &:nth-child(4) {
+    width: 11.5rem;
+  }
+}
+
+
+.statusUsersTitle {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.statusUsersTabs {
+  display: flex;
+  align-items: center;
+  gap: 0 1.5rem;
+}
+
+
+.statusUsersTabs {
+  display: flex;
+  align-items: center;
+  gap: 0 1.5rem;
+}
+
+.statusUsersTabsText {
+  color: #999;
+  font-size: 1.125rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+
+  &.active {
+    color: #000;
+    border-bottom: 2px solid #4180C6;
+  }
+}
+
+.statisticsBody {
+  margin-top: 1.5rem;
+}
+
+
+.analyticsBodyInfo {
+  border-radius: 1.25rem;
+  background-color: #FFF;
+  padding: 2.44rem 3.88rem 3rem 3.55rem;
+  &:not(:last-child) {
+    margin-bottom: 1.88rem;
+  }
+}
+
+.analyticsBodyInfoTitle {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+}
+
+.analyticsBodyInfoItemTitle{
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.analyticsBodyInfoItemSubTitle{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.analyticsBodyViewTitle{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.analyticsBodyViewsNumber{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.notifTitle{
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.notifCheckbox{
+  label{
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+}
+
+.notifInput{
+  width: 100%;
+  input{
+    border-radius: 1.25rem;
+    background-color: #FFF;
+    height: 3.125rem;
+  }
+}
