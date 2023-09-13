@@ -60,6 +60,10 @@
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 0.94rem;
+
+  a {
+    color: #4180C6;
+  }
 }
 
 
@@ -69,7 +73,10 @@
   color: #000;
   font-size: 1.125rem;
   font-weight: 400;
+}
 
+.dynamicsBodySubTitle {
+  width: 20rem;
 }
 
 .analyticsBodySelect {
@@ -85,6 +92,29 @@
   padding: 2rem 1.30rem 0 1.30rem;
 }
 
+.advertisingTableHeader {
+  padding: 2rem 1.30rem 0 1.30rem;
+  margin-bottom: 0.94rem;
+
+  .analyticsBodySubTitle {
+    &:nth-child(1) {
+      width: 21rem;
+    }
+
+    &:nth-child(2) {
+      width: 17rem;
+    }
+
+    &:nth-child(3) {
+      width: 17rem;
+    }
+
+    &:nth-child(4) {
+      width: 14rem;
+    }
+  }
+}
+
 .analyticsBodyCard {
   border-radius: 1.25rem;
   background-color: #fff;
@@ -94,6 +124,24 @@
 }
 
 .analyticsBodyCardItem {
+  border-bottom: 1px solid #999;
+  padding-bottom: 1.88rem;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.dynamicsBodyCardItem{
+  border-bottom: 1px solid #999;
+  padding-bottom: 1.88rem;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.advertisingItem {
   border-bottom: 1px solid #999;
   padding-bottom: 1.88rem;
 
@@ -121,6 +169,30 @@
   &:nth-child(4) {
     width: 11.5rem;
   }
+}
+
+.dynamicsBodyCardTitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  &:nth-child(1) {
+    width: 8rem;
+  }
+
+  &:nth-child(2) {
+    width: 8rem;
+  }
+  &:nth-child(4) {
+    width: 5rem;
+  }
+  a{
+    color: #4180C6;
+  }
+}
+
+.advertisingItemTitle {
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 
@@ -166,6 +238,7 @@
   border-radius: 1.25rem;
   background-color: #FFF;
   padding: 2.44rem 3.88rem 3rem 3.55rem;
+
   &:not(:last-child) {
     margin-bottom: 1.88rem;
   }
@@ -178,29 +251,29 @@
   margin-bottom: 1.75rem;
 }
 
-.analyticsBodyInfoItemTitle{
+.analyticsBodyInfoItemTitle {
   color: #000;
   font-size: 1.25rem;
   font-weight: 400;
 }
 
-.analyticsBodyInfoItemSubTitle{
+.analyticsBodyInfoItemSubTitle {
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.analyticsBodyViewTitle{
+.analyticsBodyViewTitle {
   color: #000;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.analyticsBodyViewsNumber{
+.analyticsBodyViewsNumber {
   font-size: 1.25rem;
   font-weight: 400;
 }
 
-.notifTitle{
+.notifTitle {
   display: flex;
   align-items: center;
   gap: 0 1rem;
@@ -209,19 +282,171 @@
   font-weight: 400;
 }
 
-.notifCheckbox{
-  label{
+.notifCheckbox {
+  label {
     color: #000;
     font-size: 1.125rem;
     font-weight: 400;
   }
 }
 
-.notifInput{
+.notifInput {
   width: 100%;
-  input{
+  margin-bottom: 1rem;
+
+  input {
     border-radius: 1.25rem;
     background-color: #FFF;
     height: 3.125rem;
   }
+}
+
+.analyticsCardWrapper {
+  border-radius: 1.25rem;
+  background: #fff;
+  padding: 2.20rem 1.06rem;
+}
+
+.analyticsCardWrapperTitle {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.analyticsCardWrapperNumber {
+  display: flex;
+  align-items: center;
+  gap: 0 0.37rem;
+  color: #4180C6;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.analyticsBodyCardSelect {
+  input {
+    background-color: transparent;
+    border: none;
+    width: 8rem;
+  }
+}
+
+.analyticsCardWrapperItem {
+  border-bottom: 1px solid #999;
+  padding-bottom: 2.5rem;
+  padding-top: 1.80rem;
+}
+
+.analyticsCardWrapperItemTop {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  &:nth-child(1) {
+    width: 25rem;
+  }
+
+  &:nth-child(2) {
+  }
+
+  &:nth-child(3) {
+    width: 8rem;
+    text-align: right;
+  }
+}
+
+.analyticsBox {
+  border-radius: 1.25rem;
+  background: #fff;
+  padding: 1.80rem;
+  margin-bottom: 1.60rem;
+}
+
+.analyticsBoxTitle {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  &:nth-child(1) {
+    margin-bottom: 1.70rem;
+  }
+
+  a {
+    color: #4180C6;
+    text-decoration: navajowhite;
+  }
+}
+
+.analyticsBoxSubTitle {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.dynamicsBox {
+  border-radius: 1.25rem;
+  background: #FFF;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.56rem 0;
+}
+
+.dynamicsBoxTitle {
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.dynamicsBoxSubTitle {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.dynamicsCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.dynamicsCardHeaderTitle {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.dynamicsCard {
+  border-radius: 1.25rem;
+  background: #FFF;
+  padding: 0.94rem 1.25rem;
+}
+
+.dynamicsCardText {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  &:nth-child(2) {
+    width: 18rem;
+  }
+
+  &:nth-child(3) {
+    width: 12rem;
+  }
+
+  &:nth-child(4) {
+    width: 17rem;
+  }
+
+  &:nth-child(5) {
+    width: 15rem;
+  }
+
+  &:nth-child(6) {
+    width: 1rem;
+  }
+}
+
+.dynamicsCardImg {
+  width: 18.5rem;
 }
